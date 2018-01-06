@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hannah.gradecalculator.MATH137">
+
+    <TextView
+        android:id="@+id/assignments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:text="Assignments"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="TA1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/ta1Grade"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assignments" />
+
+    <TextView
+        android:id="@+id/ta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="TA2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/ta2Grade"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ta1Grade"
+        app:layout_constraintTop_toBottomOf="@+id/assignments" />
+
+    <TextView
+        android:id="@+id/ta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="TA3"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/ta3Grade"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ta2Grade"
+        app:layout_constraintTop_toBottomOf="@+id/assignments" />
+
+    <TextView
+        android:id="@+id/ea1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="EA1"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ta1"
+        app:layout_constraintTop_toBottomOf="@+id/ta1" />
+
+    <TextView
+        android:id="@+id/ea2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="EA2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ta2"
+        app:layout_constraintTop_toBottomOf="@+id/ta2" />
+
+    <TextView
+        android:id="@+id/ea3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="EA3"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ta3"
+        app:layout_constraintTop_toBottomOf="@+id/ta3" />
+
+    <TextView
+        android:id="@+id/ea4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="EA4"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ea1"
+        app:layout_constraintTop_toBottomOf="@+id/ea1" />
+
+    <TextView
+        android:id="@+id/ea5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="EA5"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ea2"
+        app:layout_constraintTop_toBottomOf="@+id/ea2" />
+
+    <TextView
+        android:id="@+id/ea6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="EA6"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ea3"
+        app:layout_constraintTop_toBottomOf="@+id/ea3" />
+
+    <TextView
+        android:id="@+id/wa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="WA1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/wa1Grade"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ea4" />
+
+    <TextView
+        android:id="@+id/wa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:fontFamily="sans-serif"
+        android:text="WA2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wa1"
+        app:layout_constraintEnd_toStartOf="@+id/wa2Grade"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wa1Grade" />
+
+    <TextView
+        android:id="@+id/wa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="WA3"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/wa1"
+        app:layout_constraintTop_toBottomOf="@+id/wa1" />
+
+    <TextView
+        android:id="@+id/wa4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:fontFamily="sans-serif"
+        android:text="WA4"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wa3"
+        app:layout_constraintStart_toEndOf="@+id/wa3Grade" />
+
+    <EditText
+        android:id="@+id/ta1Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ta1"
+        app:layout_constraintEnd_toStartOf="@+id/ta2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ta1" />
+
+    <EditText
+        android:id="@+id/ta2Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ta2"
+        app:layout_constraintEnd_toStartOf="@+id/ta3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ta2" />
+
+    <EditText
+        android:id="@+id/ta3Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ta3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ta3" />
+
+    <EditText
+        android:id="@+id/ea1Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ea1"
+        app:layout_constraintStart_toStartOf="@+id/ta1Grade" />
+
+    <EditText
+        android:id="@+id/ea2Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ea2"
+        app:layout_constraintStart_toStartOf="@+id/ta2Grade" />
+
+    <EditText
+        android:id="@+id/ea3Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ea3"
+        app:layout_constraintStart_toStartOf="@+id/ta3Grade" />
+
+    <EditText
+        android:id="@+id/ea4Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ea4"
+        app:layout_constraintStart_toStartOf="@+id/ea1Grade" />
+
+    <EditText
+        android:id="@+id/ea5Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ea5"
+        app:layout_constraintStart_toStartOf="@+id/ea2Grade" />
+
+    <EditText
+        android:id="@+id/ea6Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ea6"
+        app:layout_constraintStart_toStartOf="@+id/ea3Grade" />
+
+    <EditText
+        android:id="@+id/wa1Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/wa1"
+        app:layout_constraintEnd_toStartOf="@+id/wa2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wa1" />
+
+    <EditText
+        android:id="@+id/wa2Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/wa2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wa2" />
+
+    <EditText
+        android:id="@+id/wa3Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/wa3"
+        app:layout_constraintEnd_toStartOf="@+id/exams"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/wa3" />
+
+    <EditText
+        android:id="@+id/wa4Grade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:contentDescription="%"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/wa4"
+        app:layout_constraintStart_toEndOf="@+id/wa4" />
+
+    <TextView
+        android:id="@+id/exams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Exams"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wa3" />
+
+    <TextView
+        android:id="@+id/midterm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Midterm Exam"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/midtermGrade"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exams" />
+
+    <EditText
+        android:id="@+id/midtermGrade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/midterm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/midterm" />
+
+    <TextView
+        android:id="@+id/finalExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Final Exam"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/midterm"
+        app:layout_constraintTop_toBottomOf="@+id/midterm" />
+
+    <EditText
+        android:id="@+id/finalGrade"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/finalExam"
+        app:layout_constraintStart_toStartOf="@+id/midtermGrade" />
+
+    <TextView
+        android:id="@+id/overall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Overall Grade"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalExam" />
+
+    <TextView
+        android:id="@+id/overallGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat"
+        android:text="100"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overall" />
+
+    <Button
+        android:id="@+id/calculate"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Calculate"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overallGrade" />
+
+</android.support.constraint.ConstraintLayout>

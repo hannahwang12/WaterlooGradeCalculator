@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="mathPink">#E23C96</color>
+    <color name="mathPinkDark">#8A1455</color>
+    <color name="csRed">#CD1543</color>
+    <color name="csRedDark">#770D29</color>
+</resources>

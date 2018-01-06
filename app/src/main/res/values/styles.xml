@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MathTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mathPink</item>
+        <item name="colorPrimaryDark">@color/mathPinkDark</item>
+        <item name="colorAccent">@color/mathPink</item>
+    </style>
+
+    <style name="CSTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/csRed</item>
+        <item name="colorPrimaryDark">@color/csRedDark</item>
+        <item name="colorAccent">@color/csRed</item>
+    </style>
+
+    <style name="MathTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
