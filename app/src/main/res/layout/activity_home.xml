@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@android:color/black"
     tools:context="com.example.hannah.gradecalculator.Home">
 
     <ImageView
@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/waterloo_transparent" />
+        app:srcCompat="@drawable/waterloo" />
 
     <TextView
         android:id="@+id/textView"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
         android:text="the uwaterloo grade calculator"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -38,7 +38,7 @@
         android:layout_height="50dp"
         android:fontFamily="@font/montserrat"
         android:text="MATH 135"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/math137button"
@@ -55,7 +55,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat"
         android:text="MATH 137"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/cs135button"
@@ -71,7 +71,7 @@
         android:layout_height="50dp"
         android:fontFamily="@font/montserrat"
         android:text="CS 135"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/math137button"
@@ -86,7 +86,7 @@
         android:layout_height="50dp"
         android:fontFamily="@font/montserrat"
         android:text="MATH 136"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/math138button"
@@ -102,7 +102,7 @@
         android:layout_height="50dp"
         android:fontFamily="@font/montserrat"
         android:text="MATH 138"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/cs136button"
@@ -118,7 +118,7 @@
         android:layout_height="50dp"
         android:fontFamily="@font/montserrat"
         android:text="CS 136"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/math138button"
@@ -131,7 +131,7 @@
         android:layout_width="340dp"
         android:layout_height="1dp"
         android:layout_marginTop="140dp"
-        android:background="@android:color/black"
+        android:background="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -141,7 +141,7 @@
         android:layout_width="340dp"
         android:layout_height="1dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/black"
+        android:background="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/math138button" />

@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="MathTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/mathPink</item>
-        <item name="colorPrimaryDark">@color/mathPinkDark</item>
-        <item name="colorAccent">@color/mathPink</item>
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#333333</item>
+        <item name="colorAccent">#000000</item>
     </style>
 
     <style name="CSTheme" parent="Theme.AppCompat.Light.DarkActionBar">

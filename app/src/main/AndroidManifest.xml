@@ -10,37 +10,39 @@
         android:theme="@style/MathTheme">
         <activity
             android:name=".Home"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Courses"
             android:label="@string/title_activity_courses"
-            android:theme="@style/MathTheme.NoActionBar"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/MathTheme.NoActionBar" />
         <activity
             android:name=".MATH135"
             android:label="MATH 135"
-            android:parentActivityName="com.example.hannah.gradecalculator.Home"
+            android:parentActivityName=".Home"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.hannah.gradecalculator.Home"/>
+                android:value="com.example.hannah.gradecalculator.Home" />
         </activity>
         <activity
             android:name=".MATH137"
             android:label="MATH 137"
-            android:parentActivityName="com.example.hannah.gradecalculator.Home"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".CS135"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CS135"
             android:label="CS 135"
-            android:theme="@style/CSTheme"
-            android:parentActivityName="com.example.hannah.gradecalculator.Home"
-            android:screenOrientation="portrait"/>
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait" />
+        <activity android:name=".CS136"></activity>
     </application>
 
 </manifest>
