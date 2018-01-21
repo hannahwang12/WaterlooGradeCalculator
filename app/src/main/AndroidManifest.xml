@@ -19,11 +19,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Courses"
-            android:label="@string/title_activity_courses"
-            android:screenOrientation="portrait"
-            android:theme="@style/MathTheme.NoActionBar" />
-        <activity
             android:name=".MATH135"
             android:label="MATH 135"
             android:parentActivityName=".Home"
@@ -42,7 +37,6 @@
             android:label="CS 135"
             android:parentActivityName=".Home"
             android:screenOrientation="portrait" />
-        <activity android:name=".CS136"></activity>
     </application>
 
 </manifest>
